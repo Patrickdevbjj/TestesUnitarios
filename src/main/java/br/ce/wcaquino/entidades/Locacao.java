@@ -9,7 +9,14 @@ public class Locacao {
 	private Date dataLocacao;
 	private Date dataRetorno;
 	private Double valor;
-	
+
+    public Locacao(Usuario usuario, Filme filme) {
+    }
+
+	public Locacao() {
+
+	}
+
 	public Usuario getUsuario() {
 		return usuario;
 	}
